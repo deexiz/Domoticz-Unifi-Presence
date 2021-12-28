@@ -52,9 +52,10 @@
     </params>
 </plugin>
 """
-Parameters = []
-Devices = []
-Images = ""
+
+# Parameters = []
+# Devices = []
+# Images = ""
 
 import Domoticz
 import socket
