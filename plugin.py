@@ -951,8 +951,8 @@ class BasePlugin:
             extra_devices = 1 # Override device
             self.total_devices_count = count_phone + extra_devices
 
-        f = open(Parameters["HomeFolder"] + "devicetable.txt")
-        self._device_table = f.readlines()
+        # f = open(Parameters["HomeFolder"] + "devicetable.txt")
+        # self._device_table = f.readlines()
 
 global _plugin
 _plugin = BasePlugin()
