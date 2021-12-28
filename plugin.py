@@ -64,8 +64,6 @@ from requests import Session
 from typing import Pattern, Dict, Union
 from datetime import datetime
 # https://ubntwiki.com/products/software/unifi-controller/api
-#test pull
-#dfgsdg
 
 class BasePlugin:
     _Off_Delay = 60
@@ -137,6 +135,7 @@ class BasePlugin:
         "U7P":       ("uap",       "UniFi AP-Pro"),
         "U7MSH":     ("uap",       "UniFi AP-AC-Mesh"),
         "U7PG2":     ("uap",       "UniFi AP-AC-Pro"),
+        "UAP6MP":    ("uap",       "UniFi WiFi 6 Pro"),
         "p2N":       ("uap",       "PicoStation M2"),
         "US48PRO":   ("usw",       "UniFi Switch Pro 48"),
         "US8":       ("usw",       "UniFi Switch 8"),
