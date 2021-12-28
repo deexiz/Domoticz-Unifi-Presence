@@ -467,7 +467,7 @@ class BasePlugin:
                 Domoticz.Error(strName+"Failed to login to the "+controller+" with errorcode "+str(self._current_status_code))
                 self._current_status_code = 999
             else:
-                Domoticz.Log(strName+"First attempt failed to login to the "+controller+" with errorcode "+str(self._current_status_code))
+                Domoticz.Log(strName+"First attempt failed to login to the "+controller+" (URL="+self._baseurl+") with errorcode "+str(self._current_status_code))
                 self._lastloginfailed = True
                 self._current_status_code = 999
 
